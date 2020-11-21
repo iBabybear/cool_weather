@@ -6,7 +6,7 @@ public class Basic {
     @SerializedName("city")   //JSON字段和Java字段建立映射
     public String cityName;   //城市名
     @SerializedName("id")
-    public String weather_id;  //天气情况
+    public String weatherId;  //天气情况
     public Update update;
     public class Update {
         @SerializedName("loc")
